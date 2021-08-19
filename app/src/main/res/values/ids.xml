@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="r_rbg_treatment" type="id" />
+    <item name="r_saveuser" type="id" />
+    <item name="r_localidad" type="id" />
+    <item name="r_dni" type="id" />
+    <item name="r_date" type="id" />
+    <item name="r_femenino" type="id" />
+    <item name="r_masculino" type="id" />
+    <item name="r_rbg_gender" type="id" />
+    <item name="r_lastname" type="id" />
+    <item name="r_name" type="id" />
+    <item name="r_pass" type="id" />
+    <item name="r_user" type="id" />
+    <item name="r_save" type="id" />
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "3400442475",
+    "project_id": "trabajopractico4-ff449",
+    "storage_bucket": "trabajopractico4-ff449.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3400442475:android:55a2a0e30fede746f6472e",
+        "android_client_info": {
+          "package_name": "edu.neo.tpfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3400442475-ml35fdjv7sc1pj9ke7rqm5en33rfvi8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlPXHkave_u8WJjnBxRJVvneqvhqAtCc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3400442475-ml35fdjv7sc1pj9ke7rqm5en33rfvi8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

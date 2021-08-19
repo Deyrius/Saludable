@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/fondo"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+
+    <EditText
+        android:id="@+id/main_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B4FFFFFF"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/main_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B4FFFFFF"
+        android:drawableLeft="@drawable/ic_baseline_remove_red_eye_24"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:id="@+id/main_layout_b"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B4FFFFFF"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/main_b_ingresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ingresar" />
+
+        <Button
+            android:id="@+id/main_b_registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Registrar" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+
+</LinearLayout>
